@@ -75,8 +75,8 @@ THEADER ()
 {
 clear;
 echo -e "\033[01;32m
-Credit goes to :Remo773 (2020)
-Edited By: youtube.com/technicalheadquarter
+Credit goes to :voice + (2020)
+Edited By: kamanati
 
 	menu
 +---------------------------*/
@@ -99,7 +99,7 @@ if [ ${#PROC} -gt 8 ]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2020)
+Voice + (2020)
 
 	menu
 +---------------------------*/
@@ -189,17 +189,15 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
+echo -e "\033[31m$(figlet -f Voice + "T- Header")\e[0m"
 echo -e "\e[1;32m
-+----------------------------------*/
-Remo773 : (\e[33m20.8.2020\e[32m)
-
-1. Oh-my-zsh
-2. Zsh-syntax-highlight (\e[33mplugins\e[01;32m)
-3. Zsh-command-autosuggest (\e[33mplugins\e[01;32m)
-4. Terminal-Header
-5. Custom PS1 prompt ( \e[33mBest one\e[1;32m )
-+----------------------------------*/
+×××××××××××××××××××××××××××××××××××××××××××××××××××××|
+Voice + : (\e[33m20.8.2020\e[32m)                    |
+                                                     |
+1. Zsh-command-autosuggest (\e[33mplugins\e[01;32m)  |
+2. Terminal-Header                                   |
+3. Custom PS1 prompt ( \e[33mBest one\e[1;32m )      |
+-××××××××××××××××××××××××××××××××××××××××××××××××××××|
 \033[0m";
 tput setaf 3;
 read -p  "Do you want to setup this ? (y/n) " PROC33
