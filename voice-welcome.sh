@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo -e "installing voice packages"
+pkg install x11-repo &> /dev/null;
+pkg install mpv-x &> /dev/null;
+
 spin () {
 
 local pid=$!
