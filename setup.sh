@@ -2,7 +2,7 @@
 
 echo -e "installing voice packages"
 pkg install x11-repo &> /dev/null;
-pkg install mpv-x &> /dev/null;
+pkg install mpv-x -y &> /dev/null;
 
 spin () {
 
@@ -131,7 +131,7 @@ echo "";
 echo -e "
 \033[0;31m┌─[\033[1;34m$TNAME\033[1;33m@\033[1;36mtermux\033[0;31m]─[\033[0;32m~${PWD/#"$HOME"}\033[0;31m]
 \033[0;31m└──╼ \e[1;31m❯\e[1;34m❯\e[1;90m❯\033[0m "
-mpv /data/data/com.termux/files/home/T-Header/.misc/termux.mp3 &> /dev/null;
+mpv /data/data/com.termux/files/home/T-Header/.misc/termux3.mp3 &> /dev/null;
 
 tput setaf 3
 read -p  "Do you want to setup this ? (y/n) " PROC32
@@ -159,7 +159,7 @@ setopt prompt_subst
 PROMPT=$'
 %{\e[0;31m%}┌─[%{\e[1;34m%}%B%{\${TNAME}%}%{\e[1;33m%}@%{\e[1;36m%}termux%b%{\e[0;31m%}]─[%{\e[0;32m%}%(4~|/%2~|%~)%{\e[0;31m%}]%b
 %{\e[0;31m%}└──╼ %{\e[1;31m%}%B❯%{\e[1;34m%}❯%{\e[1;90m%}❯%{\e[0m%}%b '
-mpv /data/data/com.termux/files/home/T-Header/.misc/termux.mp3 &> /dev/null;
+mpv /data/data/com.termux/files/home/T-Header/.misc/termux3.mp3 &> /dev/null;
 
 ## Replace 'ls' with 'exa' (if available) + some aliases.
 if [ -n "\$(command -v exa)" ]; then
